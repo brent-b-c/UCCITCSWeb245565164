@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>UNIVERSAL SURVEY FORM</h1>
+    <p id="description">Kindly fill out all the survey questions</p>
+    <fieldset>
+        <form id="survey-form">
+            <label for="first-name">Enter Your Name: 
+                <input type="text" id="name" name="first-name" required>
+            </label>
+            <label for="email">Enter Your Email: 
+                <input type="email" id="email" minlength="8" name="email" required>
+            </label>
+            <label for="number">Enter Number:
+                <input type="number" name="number" min="0" max="100" id="number">
+            </label>
+            <label for="dropdown">dropdown
+                <input type="dropdown" id="dropdown">
+            </label>
+            <input type="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
