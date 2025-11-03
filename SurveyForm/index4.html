@@ -6,22 +6,31 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <h1>UNIVERSAL SURVEY FORM</h1>
+    <h1 id="title">UNIVERSAL SURVEY FORM</h1>
     <p id="description">Kindly fill out all the survey questions</p>
     <fieldset>
         <form id="survey-form">
-            <label for="first-name">Enter Your Name: 
-                <input type="text" id="name" name="first-name" required>
+            <label for="name" id="name-label">Enter Your Name: 
+                <input type="text" id="name" name="first-name" placeholder="name" required>
             </label>
-            <label for="email">Enter Your Email: 
-                <input type="email" id="email" minlength="8" name="email" required>
+            <label for="email" id="email-label">Enter Your Email: 
+                <input type="email" id="email" minlength="8" name="email" placeholder="email" required>
             </label>
-            <label for="number">Enter Number:
-                <input type="number" name="number" min="0" max="100" id="number">
+            <label for="number" id="number-label">Enter Number:
+                <input type="number" name="number" min="0" max="100" id="number" placeholder="number">
             </label>
-            <label for="dropdown">dropdown
+            <label for="dropdown" id="dropdown">dropdown
                 <input type="dropdown" id="dropdown">
             </label>
+            <select id="dropdown">Select Gender
+                <option value="">Select Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">May saltik sa utak</option>
+            </select>
+
+            <input type="radio" id="student">graduate
+            <input type="radio" id="graduate">student
             <input type="submit">
         </form>
     </fieldset>
