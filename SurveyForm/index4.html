@@ -1,57 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles4.css">
-    <title>Survey Form</title>
-</head>
-<body>
-    <h1 id="title">UNIVERSAL SURVEY FORM</h1>
-    <p id="description">Kindly fill out all the survey questions</p>
-    <fieldset>
-        <form id="survey-form">
-            <label for="name" id="name-label">Enter Your Name: 
-                <input type="text" id="name" name="first-name" placeholder="Name:" required>
-            </label>
-            <label for="email" id="email-label">Enter Your Email: 
-                <input type="email" id="email" minlength="8" name="email" placeholder="Email:" required>
-            </label>
-            <label for="number" id="number-label">Enter Number (1-100):
-                <input type="number" name="number" min="0" max="100" id="number" placeholder="Number:">
-            </label>
-            
-            <select class="gender" id="dropdown">Select Gender
-                <option value="">Select Gender</option>
-                <option value="">Male</option>
-                <option value="">Female</option>
-            </select>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles4.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">UNIVERSAL SURVEY FORM</h1>
+        <p id="description">Kindly fill out all the survey questions</p>
+        <fieldset>
+            <form id="survey-form">
+                <label for="name" id="name-label">Enter Your Name: 
+                    <input type="text" id="name" name="first-name" placeholder="Name:" required>
+                </label>
+                <label for="email" id="email-label">Enter Your Email: 
+                    <input type="email" id="email" minlength="8" name="email" placeholder="Email:" required>
+                </label>
+                <label for="number" id="number-label">Enter Number (1-100):
+                    <input type="number" name="number" min="0" max="100" id="number" placeholder="Number:">
+                </label>
+                
+                <select class="gender" id="dropdown">Select Gender
+                    <option value="">Select Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
 
-            <label for="radio-buttons" id="radio-buttons">Are you a student or a graduate?
-            <input class="inline" type="radio" id="student" value="Graduate" name="graduate">graduate
-            <input class="inline" type="radio" id="graduate" value="student" name="student">student
-            </label>
-
-            <label for="radio-buttons" id="radio-buttons">Do you prefer Mclaren or Ferrari?
-                <input class="inline" type="radio" id="student" value="Graduate" name="graduate">Mclaren
-                <input class="inline" type="radio" id="graduate" value="student" name="student">Ferrari
+                <label for="radio-buttons" id="radio-buttons">Are you a student or a graduate?
+                <input class="inline" type="radio" id="student" value="Graduate" name="graduate">graduate
+                <input class="inline" type="radio" id="graduate" value="student" name="student">student
                 </label>
 
-            <label for="text-area">What's your favorite thing to do when you have freetime:</label>
-            <input type="text" name="question" placeholder="I love solving rubik's cube...">
+                <label for="radio-buttons" id="radio-buttons">Do you prefer Mclaren or Ferrari?
+                    <input class="inline" type="radio" id="student" value="Graduate" name="graduate">Mclaren
+                    <input class="inline" type="radio" id="graduate" value="student" name="student">Ferrari
+                    </label>
 
-            <label for="checkbox">
-                <input class="inline" type="checkbox" value="1">Lewis Hamilton is the GOAT
-                <input class="inline" type="checkbox" value="2">Max Verstappen is the GOAT
-            </label>
-            <label for="ate-today">What did you eat today?
-                <input type="text" name="ate-today" id="ate-today" placeholder="pasta">
-                <input type="submit" id="submit">
-            </label>
-            <legend>Tell me a random thought</legend>
-            <textarea name="random" id="random"></textarea>
-        </form>
-        
-    </fieldset>
-</body>
-</html>
+                <label for="text-area">What's your favorite thing to do when you have freetime:</label>
+                <input type="text" name="question" placeholder="I love solving rubik's cube...">
+
+                <label for="checkbox">
+                    <input class="inline" type="checkbox" value="1">Lewis Hamilton is the GOAT
+                    <input class="inline" type="checkbox" value="2">Max Verstappen is the GOAT
+                </label>
+                <label for="ate-today">What did you eat today?
+                    <input type="text" name="ate-today" id="ate-today" placeholder="pasta">
+                    <input type="submit" id="submit">
+                </label>
+                <legend>Tell me a random thought</legend>
+                <textarea name="random" id="random"></textarea>
+            </form>
+            
+        </fieldset>
+    </body>
+    </html>
